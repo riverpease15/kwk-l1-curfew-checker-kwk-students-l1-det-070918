@@ -11,4 +11,7 @@ def deluxe_curfew_checker(time)
     puts "You've got hours until curfew, check back later."
 end
 
+deluxe_curfew_checker(10)
 deluxe_curfew_checker(11)
+deluxe_curfew_checker(9)
+deluxe_curfew_checker(8)
