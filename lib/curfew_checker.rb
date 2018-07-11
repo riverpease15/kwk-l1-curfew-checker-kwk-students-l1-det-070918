@@ -1,15 +1,15 @@
 def simple_curfew_checker(time)
-  if time <= 10
-    puts "Stay out later, you're good."
+  if time == 11
+    puts "You're in trouble."
   end
 end
 
 
 def curfew_checker(time)
-  if time < 11
-    puts "You've got time."
+  if time > 11
+    puts "You're in trouble."
   else
-    puts "Apparate now!"
+    puts "You've got time"
   end
 end
 
