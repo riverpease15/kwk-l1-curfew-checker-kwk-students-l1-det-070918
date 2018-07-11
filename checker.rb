@@ -11,7 +11,7 @@ def platinum_curfew_checker(current_time, curfew_time)
   end
 end
 
-platinum_curfew_checker(10)
-platinum_curfew_checker(11)
-platinum_curfew_checker(9)
-platinum_curfew_checker(8)
+platinum_curfew_checker(11, 12)
+platinum_curfew_checker(12, 12)
+platinum_curfew_checker(10, 12)
+platinum_curfew_checker(8, 12)
