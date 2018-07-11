@@ -9,6 +9,7 @@ def deluxe_curfew_checker(time)
     puts "Two hours until curfew!"
   else
     puts "You've got hours until curfew, check back later."
+  end
 end
 
 deluxe_curfew_checker(10)
