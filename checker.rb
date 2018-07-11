@@ -1,6 +1,5 @@
-def deluxe_curfew_checker(time)
-  curfew = 11
-  how_much_time = curfew-time
+def platinum_curfew_checker(current_time, curfew_time)
+  how_much_time = curfew_time-current_time
   if how_much_time == 1
     puts "You've got one hour left!"
   elsif how_much_time < 1
@@ -12,7 +11,7 @@ def deluxe_curfew_checker(time)
   end
 end
 
-deluxe_curfew_checker(10)
-deluxe_curfew_checker(11)
-deluxe_curfew_checker(9)
-deluxe_curfew_checker(8)
+platinum_curfew_checker(10)
+platinum_curfew_checker(11)
+platinum_curfew_checker(9)
+platinum_curfew_checker(8)
