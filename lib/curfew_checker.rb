@@ -1,6 +1,7 @@
 def simple_curfew_checker(time)
   if time <= 10
     puts "Stay out later, you're good."
+  end
 end
 
 
@@ -9,6 +10,7 @@ def curfew_checker(time)
     puts "You've got time."
   else
     puts "Apparate now!"
+  end
 end
 
 
@@ -19,6 +21,7 @@ def complex_curfew_checker(time)
     puts "You're running out of time..."
   else
     puts "Apparate now!"
+  end
 end
 
 
@@ -33,9 +36,21 @@ def deluxe_curfew_checker(time)
     puts "Two hours until curfew!"
   else
     puts "You've got hours until curfew, check back later."
+  end
 end
 
 
 def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
+  how_much_time = curfew_time-current_time
+  if how_much_time == 1
+    puts "You've got one hour left!"
+  elsif how_much_time < 1
+    puts "You're out of time, apparate now!"
+  elsif how_much_time == 2
+    puts "Two hours until curfew!"
+  else
+    puts "You've got hours until curfew, check back later."
+  end
 end
+
+
